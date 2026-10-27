@@ -66,19 +66,19 @@ Limitations noted in the thesis: heatmaps can be diffuse, and focus is less shar
 ## Repository structure
 ```
 .
-├── notebooks/     # pldd-sequential.ipynb (exported from Kaggle)
+├── notebooks/     # pldd-sequential.ipynb
 ├── src/           # model.py, train.py, gradcam.py (refactored from the notebook)
 ├── models/        # trained weights (or link to Releases)
 ├── results/       # curves, confusion matrices, Grad-CAM figures
-├── docs/          # thesis PDF (optional)
+├── docs/          
 ├── requirements.txt
 └── README.md
 ```
 
 ## Getting started
 ```bash
-git clone https://github.com/<your-username>/potato-leaf-disease-detection-xai.git
-cd potato-leaf-disease-detection-xai
+git clone https://github.com/ujarhr/pldd-xai.git
+cd pldd-xai
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter notebook notebooks/pldd-sequential.ipynb
@@ -101,6 +101,9 @@ Real-time / mobile deployment, better handling of healthy leaves, field-conditio
   year   = {2025}
 }
 ```
+###
+- Kaggle notebook: https://www.kaggle.com/code/reajulhasanraju/pldd-sequential
+- Thesis: *Detection and Classification of Potato Leaf Diseases Using Deep Learning Models with Explainable AI Visualization* (supervised by Dr. Engr. Md Jiabul Hoque and Engr. Hassan Jaki)
 
-## License
+### License
 MIT, see [LICENSE](LICENSE).
