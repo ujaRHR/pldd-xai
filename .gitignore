@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# dataset (download separately)
+data/
+PlantVillage/
+
+# large model files: use Git LFS or GitHub Releases
+*.h5
+*.keras
+*.pt
+*.pth

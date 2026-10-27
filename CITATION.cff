@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Detection and Classification of Potato Leaf Diseases Using Deep Learning Models with Explainable AI Visualization"
+type: thesis
+authors:
+  - family-names: "Raju"
+    given-names: "Reajul Hasan"
+institution:
+  name: "International Islamic University Chittagong"
+date-released: 2025-03-17
+keywords:
+  [potato leaf disease, CNN, transfer learning, Grad-CAM, explainable AI]
